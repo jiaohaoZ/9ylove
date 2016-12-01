@@ -1,0 +1,9 @@
+﻿/*通用js文件*/
+/*直接执行*/
+/*设置html字体大小*/
+document.getElementsByTagName('html')[0].style.fontSize=window.innerWidth/7.5+'px';
+window.onload=function(){
+	window.addEventListener('resize',function(){
+		document.getElementsByTagName('html')[0].style.fontSize=window.innerWidth/7.5+'px';
+	});
+}

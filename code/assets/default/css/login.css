@@ -1,0 +1,105 @@
+/*通用样式*/
+html{font-size: 50px;}
+body{margin: 0; padding: 0; font-family: hiraginosansgb w3,Microsoft YaHei; background-color: #f5f5f5;}
+p{margin-bottom: 0;}
+.my-btn-block-green-1{width: 100%; height: 0.8rem; line-height: 0.8rem; padding: 0; color: #fff; font-size: 0.32rem; background-color: #4d90e7; border-color: #4d90e7;-webkit-transition: background-color 0.2s;}
+.my-btn-block-green-1:active{background-color: #3f75bc !important;}
+.my-btn-green-1{ padding: 0; color: #fff;  background-color: #4d90e7; border-color: #4d90e7;-webkit-transition: background-color 0.2s;}
+.my-btn-green-1:active{background-color: #3f75bc !important;}
+
+.my-btn-login-bg{width: 100%; height: 0.8rem; line-height: 0.8rem; padding: 0; color: #fff; font-size: 0.32rem; background-color: #56b3f5; border-color: #56b3f5;-webkit-transition: background-color 0.2s;}
+.my-btn-login-bg:active{background-color: #52abea !important; border-color: #52abea !important;}
+a{color: #4d90e7;}
+a:active{color: #3f75bc;}
+.nav-bg {
+    background-color: #4d90e7 !important;
+}
+.nav-bg h1, .nav-bg a, .nav-bg button {
+    color: #fff !important;
+}
+.login-box input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+border: 1px solid #CCC!important;
+height: 35px!important;
+line-height: 35px!important;
+border-radius: 4px;
+margin-top: 2px
+}
+.pr{padding-right: 1rem;}
+										/*登录页面*/
+/*.login-box{width: 100%; height: 100%; position: relative; background: -webkit-linear-gradient(#68c9b7, #3677cf);background: linear-gradient(#68c9b7, #3677cf);}*/
+.login-box{width: 100%; height: 100%; position: relative; background: linear-gradient(to bottom right, #6dcab7 , #60b8ba ,#4d98c2,#3a79c9);}
+.login-box img.bg{width: 100%; height: 100%; position: absolute;left: 0; top: 0; z-index: 0;}
+/*logo区域*/
+.logo-box-zw{height: 15%;}
+.login-box .logo-box{height: 22.5%; position: relative;}
+.login-box .logo-box img.login-logo{width: 4.6rem; display: block;  margin: 0 auto; position: relative;}
+.login-box .logo-box div.user-img{width: 3rem; height: 3rem; max-width: 200px; max-height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto;position: relative; top: -50px;}
+.login-box .logo-box div.user-img img{width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
+
+/*表单区域*/
+.login-box .login-form-box{ margin: 0 auto;  padding: 0 6.6%;}
+.login-box .login-form-box .login-form {padding: 0.2rem 0; padding-right:0.5rem;padding-left:0.3rem;border: 1px solid #fff;border-radius: 6px; background-color: inherit; color: #fff;}
+.login-box .login-form-box .login-form input{background-color: inherit; width: 75%;}
+.login-box .login-form-box .login-form label{width: 40px; height: 44px; padding: 10px 20px; position: relative; top: -4px;}
+.mui-input-group .mui-input-row:after{background-color: #ffffff;}
+.mui-input-group:before,.mui-input-group:after{display: none;}
+.mui-input-group .mui-input-row.password-row:after{display: none;}
+
+/*按钮区域*/
+.login-box .btn-box{ margin: 0 auto;  padding: 0 6.6%; position: relative; }
+.login-box .btn-box .link-area{text-align: right; padding-right: 0.4rem;padding-top: 0.1rem; padding-bottom: 0.6rem;}
+.login-box .btn-box .link-area a{color: #fff; font-size: 14px; margin-left: 0.25rem; display: inline-block;}
+
+/*改变placeholder颜色*/
+.login-box input::-webkit-input-placeholder {
+    color:    #fff;
+}
+.mui-input-row .mui-input-clear~.mui-icon-clear, .mui-input-row .mui-input-password~.mui-icon-eye, .mui-input-row .mui-input-speech~.mui-icon-speech{color: #fff;}
+
+
+										/*忘记密码页面*/
+/*表单区域*/
+.mui-bar-nav~.forget-password-content {padding-top: 88px;}
+.forget-password-box{ margin-top: 0.4rem; background-color: #f5f5f5; border-top: 1px solid #dfdfdf; padding: 0 0.5rem; padding-top: 0.4rem;}
+.forget-password-box .login-input-row input{border: 1px solid #4d90e7; padding-left: 50px;border-radius: 4px;}
+
+.forget-password-box .login-input-group input{border: 1px solid #4d90e7; display: inline-block; width: 60%; border-radius: 4px;}
+.forget-password-box .login-input-group button{display: inline-block; width: 35%; float: right; height: 40px;}
+
+.forget-password-box .login-input-row, .forget-password-box .login-input-group{margin-bottom: 10px;}
+/*icon定位*/
+.forget-password-box .login-input-row{position: relative;}
+.forget-password-box .login-input-row span{position: absolute; left: 6px; top: 7px;}
+
+#fg-login{height: 40px; padding-top: 7px; padding-bottom: 7px;}
+
+
+										/*注册页面*/
+.reg-logo{width: 100%; height: 1rem; background-color: #fff; padding-left: 0.3rem;}
+.reg-logo img{height: 100%;}
+/*表单区域*/
+.mui-bar-nav~.reg-content {padding-top: 88px;}
+.reg-box{ margin-top: 0.4rem; background-color: #F5F5F5; border-top: 1px solid #dfdfdf; padding: 0 0.5rem;}
+.reg-box .recommender{font-size: 0.32rem; line-height: 1rem; color: #333;}
+.reg-box .login-input-row>input{border: 1px solid #4d90e7; padding-left: 50px;border-radius: 4px;}
+
+.reg-box .login-input-group>input{border: 1px solid #4d90e7; display: inline-block; width: 60%; border-radius: 4px;}
+.reg-box .login-input-group>button{display: inline-block; width: 35%; float: right; height: 40px;}
+
+.reg-box .login-input-row, .reg-box .login-input-group{margin-bottom: 10px;}
+/*icon定位*/
+.reg-box .login-input-row{position: relative;}
+.reg-box .login-input-row span{position: absolute; left: 6px; top: 7px;}
+
+#reg-next{height: 40px; padding-top: 7px; padding-bottom: 7px;}
+a.reg-login.mui-btn-link{color: #000; }
+
+/*协议*/
+.reg-box .protocol{font-size: 0.24rem;}
+.reg-box .protocol a{color:#ff9446 ;}
+										/*reg2页面*/
+.sex-box {position: relative;}
+.sex-box{position: absolute; top: 2px; background-color: inherit; left: 30px;}
+.sex-box .mui-input-row{display: inline-block; }
+.sex-box.mui-input-group .mui-input-row:after{display: none;}

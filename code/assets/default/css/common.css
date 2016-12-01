@@ -1,0 +1,224 @@
+/*通用样式*/
+html{font-size: 50px;}
+body{margin: 0; padding: 0; font-family: hiraginosansgb w3,Microsoft YaHei; background-color: #f5f5f5;}
+p{margin-bottom: 0;}
+.mui-content{background-color: #f5f5f5;}
+.textcenter{text-align: center;}
+.textright{text-align: right;}
+.tit{width: 100%; height: 0.8rem; font-size: 0.32rem; line-height: 0.8rem; background-color: #fff; color: #555; font-weight: normal; padding-left: 0.5rem; border-bottom: 1px solid #f5f5f5; margin: 0;}
+/*按钮*/
+.my-btn-block-green-1{width: 100%; height: 0.8rem; line-height: 0.8rem; padding: 0; color: #fff; font-size: 0.32rem; background-color: #4d90e7; border-color: #4d90e7;-webkit-transition: background-color 0.2s;}
+.my-btn-block-green-1:active{background-color: #3f75bc !important;}
+.my-btn-green-1{color: #fff;  background-color: #4d90e7; border-color: #4d90e7;-webkit-transition: background-color 0.2s;}
+.my-btn-green-1:active{background-color: #3f75bc !important;}
+.my-btn-block-yellow-2{width: 100%; height: 0.7rem; line-height: 0.7rem; padding: 0; color: #fff; font-size: 0.24rem; background-color: #fd8731; border-color: #fd8731;}
+.my-btn-block-yellow-2:active{background-color: #eb6c10 !important;}
+.position-bottom{position: fixed;left: 0; bottom: 0;}
+.bottom-box{width: 100%; height: 0.8rem; background-color: #fff;}
+.bottom-box a{width: 50%; display: block; float: left; height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 0.32rem;}
+.bottom-box a:nth-of-type(1){border-right: 1px solid #F5F5F5; color: #999;}
+.bottom-box a:nth-of-type(2){ color: #4d90e7;}
+
+.mui-input-group.my-form{background-color: inherit;}
+.mui-input-group.my-form:before,.mui-input-group.my-form:after{height: 0;}
+.mui-input-group.my-form .mui-input-row{background-color: #fff;}
+.mui-input-group.my-form .mui-input-row:after{left: 0;}
+.mui-input-group.my-form .mui-input-row:before{ position: absolute;right: 0;top: 0;left: 0px;height: 1px;content: '';-webkit-transform: scaleY(.5);transform: scaleY(.5);background-color: #c8c7cc;}
+/*首页顶部导航*/
+.index-header-bar{ background-color: #fff; box-shadow: none;}
+.index-footer-bar{-webkit-box-shadow: none;box-shadow: none; background-color: #fff; border-top: 1px solid #e1e1e1;}
+.mui-bar-nav~.content-top-88 {
+    padding-top: 88px;
+}
+/*非首页顶部导航*/
+
+.other-header-bar{background-color: #fff; box-shadow: none; height: 88px;}
+.other-header-bar .jy-header-bar{height: 44px; background-color: #0079de; margin: 0 -10px; overflow: hidden;}
+.other-header-bar .jy-header-bar a{width: 25%; height: 44px; line-height: 44px; float: left; color: #ffffff; text-align: center;}
+.other-header-bar-44{height: 44px; background-color: #0079de;}
+
+/*主页导航*/
+.nav-bg{background-color: #4d90e7 !important; } 
+.nav-bg h1,.nav-bg a,.nav-bg button{color: #fff !important;}
+.nav-bg .mui-icon-plusempty{ font-weight: bold;}
+/*改变底部选项卡颜色*/
+.mui-bar-tab .mui-tab-item.mui-active,.mui-bar-tab .mui-tab-item.mui-active {color: #4d90e7;}
+
+/*home页面*/
+.reward{width: 100%;  color: #fff;}
+.reward .today{background-color: #4d90e7;}
+.reward .label{font-size: 0.28rem; color: #bae3ff; line-height: 1rem; text-align: center;}
+.reward .num{font-size: 1rem; color: #fff; line-height: 1.2rem; font-weight: bold; text-align: center; padding-bottom: 0.2rem;}
+.reward .icon .mui-icon{font-size: 0.8rem; color: #fff; line-height: 2.5rem; height: 100%; display: inline-block;}
+
+/*第一类导航*/
+.nav-1{width: 100%; overflow: hidden; background-color: rgba(77,144,231,0.9);}
+.nav-1 .item{width: 50%; height: 1.2rem; float: left; text-align: center; padding: 0.2rem 0;}
+.nav-1 .item .label{font-size: 0.28rem; color: #bae3ff; line-height: 0.4rem;}
+.nav-1 .item .num{font-size: 0.32rem; color: #fff; font-weight: bold; line-height: 0.4rem;}
+/*第二类导航*/
+.nav-2{width: 100%; overflow: hidden; background-color: #fff;}
+.nav-2 .item{width: 50%; height: 1.3rem; float: left; line-height: 1.3rem; padding-left: 0.36rem;}
+.nav-2 .item:active{background-color: #F5F5F5;}
+.nav-2 .item:nth-of-type(odd){border-right: 1px solid #f5f5f5;}
+.nav-2 .item:nth-of-type(even){border-right: 1px solid #fff;}
+.nav-2 .item:nth-of-type(1),.nav-2 .item:nth-of-type(2){border-bottom: 1px solid #f5f5f5;}
+.nav-2 .item .label img{width: 0.5rem; height: 0.5rem; vertical-align: middle;}
+.nav-2 .item .num{font-size: 0.32rem; color: #4c4c4c; margin-left: 0.16rem;}
+/*自定义列表-1*/
+.my-list:before{display: none;}
+.my-list:after{display: none;}
+.my-list .mui-table-view-cell:after{background-color:#f5f5f5}
+.my-list .label img{width: 0.5rem; height: 0.5rem; vertical-align: middle; display: inline-block;}
+.my-list .num{ font-size: 0.32rem; margin-left: 0.3rem; position: relative; top: 0.02rem;}
+.my-list .my-cell{padding: 0.2rem 0.3rem;}
+.my-list .my-cell .mui-icon-arrowright{ color: #999;}
+/*自定义列表-2*/
+.my-setting-list:before{display: none;}
+.my-setting-list:after{display: none;}
+.my-setting-list .mui-table-view-cell:after{background-color:#f5f5f5}
+.my-setting-list .label img{width: 0.5rem; height: 0.5rem; vertical-align: middle; display: inline-block;}
+.my-setting-list .num{ font-size: 0.32rem; position: relative; top: 0.02rem;}
+.my-setting-list .pull-right{float: right; color: #999;}
+.my-setting-list .mui-icon-arrowright{ color: #999;}
+/*个人信息列表更改*/
+.my-setting-list .pull-right.qrcode img{height:0.32rem}
+.my-setting-list .my-cell{padding: 0.2rem 0.3rem;}
+.my-setting-list .num.avator{line-height: 1.2rem;}
+.my-setting-list .pull-right.avator img{height: 1.2rem; width: 1.2rem; border-radius: 50%; overflow: hidden;}
+
+/*个人中心*/
+#my .user{width: 100%; height: 3.4rem; background-color: #4d90e7;}
+#my .user .user-box .user-info{width: 100%; padding-top: 0.4rem;}
+#my .user .user-box .user-info .mui-icon-arrowright{font-size: 1rem; color: #fff; line-height: 1.6rem;}
+#my .user .user-box .user-info .user-img{width: 1.6rem; height: 1.6rem; margin: auto; border-radius: 50%; position: relative;}
+#my .user .user-box .user-info .user-img img{width: 100%; height: 100%; border-radius: 50%; overflow: hidden;}
+#my .user .user-box .user-info .user-name{color: #fff; font-size: 0.32rem; line-height: 0.36rem; text-align: center; margin-bottom: 0; margin-top: 0.2rem;}
+#my .user .user-box .user-info .user-phone{color: #fff; font-size: 0.28rem; line-height: 0.32rem; text-align: center; margin-bottom: 0; margin-top: 0.1rem;}
+#my .user .user-box .user-info .user-img .grade-box{width: 0.6rem; height: 0.6rem; border: 2px solid #fba688; border-radius: 50%; background-color: #f7774a; color: #fff; font-size: 0.24rem; line-height: 0.5rem; text-align: center; position: absolute; bottom: 0; right: -10px;}
+
+/*账户页面*/
+#account header{}
+#account .mui-bar .mui-segmented-control{  border: none; width: 200px; height: 30px; margin:0; position: absolute; top: 50%; left: 50%;-webkit-transform: translate(-50%,-50%);  transform: translate(-50%,-50%);border-radius: 0;}
+#account .mui-segmented-control .mui-control-item{ line-height: 30px; background-color: #4d90e7; color: #fff !important; border: 1px solid #fff; transition: 0.2s;}
+#account .mui-segmented-control .mui-control-item:nth-of-type(1){border-radius: 8px 0 0 8px;}
+#account .mui-segmented-control .mui-control-item:nth-of-type(2){border-radius: 0 8px 8px 0;}
+#account .mui-segmented-control .mui-control-item.mui-active{color: #4d90e7 !important; background-color: #fff; border-color: #fff;}
+#account .top-bar{width: 100%;overflow: hidden; background-color: #fff;}
+#account .top-bar .item{width: 50%; height: 0.8rem; border-bottom: 1px solid #959595; float: left; line-height: 0.8rem; text-align: center; font-size: 0.28rem;}
+#account .top-bar .item .label{color: #999;}
+#account .top-bar .item .num{color: #ff6138;}
+#account .my-cell .wrap-1{width: 100%; height: 0.7rem; line-height: 0.6rem;}
+#account .my-cell .wrap-1 .name{color: #999; font-size: 0.28rem;}
+#account .my-cell .wrap-1 .status{color: #ff6138; font-size: 0.28rem; border: 1px solid #FF6138; border-radius: 5px; padding: 0 5px; height: 0.5rem; line-height: 0.5rem;}
+#account .my-cell .wrap-1 .active{color: #00b17f; font-size: 0.28rem; border: 1px solid #00b17f; border-radius: 5px; padding: 0 5px; height: 0.5rem; line-height: 0.5rem;}
+#account .my-cell .wrap-2 {height: 0.9rem;}
+#account .my-cell .wrap-2 .label{font-size: 0.28rem; color: #999; line-height: 0.4rem;}
+#account .my-cell .wrap-2 .num{font-size: 0.28rem; color: #999;  line-height: 0.4rem;margin-left: 0;}
+#account .my-cell .wrap-2 button{font-size: 0.28rem;}
+#account .my-list .mui-table-view-cell:after{left: 0;}
+#account .my-cell .wrap-3 p{font-size: 0.28rem; margin-top: 0.1rem;}
+#account .my-cell .wrap-3 button{font-size: 0.28rem;}
+
+/*第三类导航*/
+.nav-3{width: 100%; background-color: #fff; overflow: hidden; padding: 0; margin: 0;}
+.nav-3 li{list-style: none; width: 50%; padding: 0.24rem 0; float: left; border-bottom: 1px solid #F5F5F5;}
+.nav-3 li:active{background-color: #F5F5F5;}
+.nav-3 li .item{width: 100%; overflow: hidden; display: block;}
+.nav-3 li:nth-of-type(odd) .item{border-left: 1px solid #fff;}
+.nav-3 li:nth-of-type(even) .item{border-left: 1px solid #F5F5F5;}
+.nav-3 li .item .icon{width: 35%; float: left;}
+.nav-3 li .item .text{width: 65%; float: left;}
+.nav-3 li .item .text .label{font-size: 0.32rem; color: #000; line-height: 0.5rem;}
+.nav-3 li .item .text .num{ font-size: 0.28rem;  line-height: 0.5rem; height: 0.5rem;}
+.nav-3 li .item .icon img{width: 0.6rem; height: 0.6rem; margin: auto; display: block; margin-top: 0.1rem;}
+
+/*交易详情*/
+.record-list{list-style: none; width: 100%; background-color: #fff; padding: 0; margin: 0;}
+.record-list .item{width: 100%; border-bottom: 1px solid #dfdf; overflow: hidden;}
+.record-list .item div.left{float: left; width: 25%; margin: 0.2rem 0; text-align: center; border-right: 1px dashed #dfdfdf;}
+.record-list .item div.left .week{ line-height: 0.5rem; font-size: 0.32rem;}
+.record-list .item div.left .date{ line-height: 0.5rem; font-size: 0.24rem;}
+.record-list .item div.right{float: left; width: 75%; height: 1.4rem;display: -webkit-flex; display: flex;align-items: center;}
+.record-list .item div.right .label{float: left; font-size: 0.36rem; color: #222;padding-left: 0.3rem; }
+.record-list .item div.right .num{float: right;font-size: 0.36rem; color: #222; line-height: 1.4rem; padding-right: 0.3rem;}
+
+/*二维码页面*/
+#qrcode .mui-content{width: 100%; height: 100%; background-color: inherit;}
+#qrcode .code-box{width: 6rem; height: 6rem; background-color: #fff; border-radius: 10px; box-shadow: 4px 4px 10px #0a8aad; margin: auto; margin-top: 20%; padding-top: 10%;}
+#qrcode .code-box .qrcode-img{ display: block;width: 4rem; height: 4rem; margin: auto; }
+#qrcode .code-box .name{font-size: 0.32rem; text-align: center; margin-top: 0.4rem;}
+#qrcode .text{text-align: center; margin-top: 1rem; font-size: 0.4rem; color: #fff;}
+
+/*爱心活动列表*/
+.nav-4{list-style: none; width: 100%; padding: 0 0.3rem;}
+.nav-4 .item{width: 100%; background-color: #fff; border-radius: 5px; height: auto; padding: 0.3rem; margin-top: 0.3rem;}
+.nav-4 .item .tit{width: 100%; height: auto; font-size: 0.32rem; line-height: 0.5rem; color: #222; padding: 0; border-bottom: none;}
+.nav-4 .item .date{font-size: 0.28rem; color: #999; line-height: 0.4rem; margin-top: 0.1rem;}
+.nav-4 .item .img-box{margin-top: 0.3rem;}
+.nav-4 .item .img-box img{width: 100%;}
+.nav-4 .item .click{font-size: 0.28rem; color: #999; line-height: 0.4rem; margin-top: 0.2rem;}
+
+/*弹出菜单*/
+#home #popover{width: 4rem;}
+#home #popover .mui-table-view .mui-table-view-cell{ height: 1rem; font-size: 0.32rem;}
+#home #popover .mui-table-view .mui-table-view-cell img{height: 0.6rem; vertical-align: middle; padding-right: 0.2rem;}
+#account #popover{width: 4rem;}
+#account #popover .mui-table-view .mui-table-view-cell{ height: 1rem; font-size: 0.32rem;}
+#account #popover .mui-table-view .mui-table-view-cell img{height: 0.6rem; vertical-align: middle; padding-right: 0.2rem;}
+#account #popover2{width: 6.5rem; height:4.2rem ;top: 0; left: 0; bottom: 0; right: 0; margin: auto;  position: fixed; }
+#account #popover2 ul{list-style: none; padding: 0; overflow: hidden; margin: 0; height: 100%;}
+#account #popover2 ul li{width: 50%; height: 50%; float: left; text-align: center; padding-top: 0.2rem;}
+#account #popover2 ul li img{width: 1rem; height: 1rem;}
+#account #popover2 ul li p{color: #222; font-size: 0.28rem; line-height: 0.5rem;}
+#account #popover3{width: 6.5rem; height:4.2rem ;top: 0; left: 0; bottom: 0; right: 0; margin: auto;  position: fixed; }
+#account #popover3 ul{list-style: none; padding: 0; overflow: hidden; margin: 0; height: 100%;}
+#account #popover3 ul li{width: 50%; height: 50%; float: left; text-align: center; padding-top: 0.2rem;}
+#account #popover3 ul li img{width: 1rem; height: 1rem;}
+#account #popover3 ul li p{color: #222; font-size: 0.28rem; line-height: 0.5rem;}
+/*importance句子*/
+.importance{ line-height: 0.4rem; font-size: 0.28rem; margin-top: 0.3rem; padding-left: 0.4rem;}
+.importance img{width: 0.5rem; vertical-align: middle; margin-right: 0.2rem;}
+
+/*银行卡列表*/
+.bankcard-list{width: 100%; list-style: none; margin: 0; padding: 0;}
+.bankcard-list .item{ margin: 0 0.3rem; height: 2rem; border-radius: 10px; margin-top: 0.3rem; background: -webkit-linear-gradient(left, #4687c7 , #3d5eab);}
+.bankcard-list .item .label{width: 25%;  float: left; overflow: hidden;}
+.bankcard-list .item .label .img-box{ width: 1rem; height: 1rem; background-color: #fff; border-radius: 50%; margin: 0 auto; margin-top: 0.25rem;}
+.bankcard-list .item .label .img-box img{ width: 100%;display: block;}
+.bankcard-list .item .num{width: 55%; float: left; padding-top: 0.25rem;}
+.bankcard-list .item .num .bank{line-height: 0.5rem; color: #fff; font-size: 0.36rem;}
+.bankcard-list .item .num .type{line-height: 0.5rem; color: #fff; font-size: 0.32rem;}
+.bankcard-list .item .num .number{line-height: 0.5rem; color: #fff; font-size: 0.32rem;}
+.bankcard-list .item .delete{ width: 20%; float: left; text-align: right; padding-top: 0.3rem; padding-right: 0.3rem;}
+.bankcard-list .item .delete .deleteBtn{color: #fff; font-size: 0.32rem;}
+
+/*实名认证2*/
+#realname2 .img-box{width: 100%; padding: 0 0.5rem; }
+#realname2 .img1-box{width: 100%; background-color: #fff; height: 164px; border: 1px dashed #999;}
+#realname2 .img1-box .view1{ width: 256px; height: 162px;margin: 0 auto;}
+#realname2 .img1-box .view1 img{display: block; width: 100%; height: 100%;}
+#clipArea1{position: fixed; width: 100%; height: 100%; background-color: #000; top: 0; left: 0; z-index: 100; visibility: hidden;}
+#clipArea1 .left{position: absolute; bottom: 0 ; left: 0; z-index: 2000; width: 100px;}
+#clipArea1 .right{position: absolute; bottom: 0 ; right: 0; z-index: 2000;width: 100px;}
+
+#realname2 .img2-box{width: 100%; background-color: #fff; height: 164px; border: 1px dashed #999; margin-top: 0.2rem;}
+#realname2 .img2-box .view2{ width: 256px; height: 162px;margin: 0 auto;}
+#realname2 .img2-box .view2 img{display: block; width: 100%; height: 100%;}
+#clipArea2{position: fixed; width: 100%; height: 100%; background-color: #000; top: 0; left: 0; z-index: 100; visibility: hidden;}
+#clipArea2 .left{position: absolute; bottom: 0 ; left: 0; z-index: 2000; width: 100px;}
+#clipArea2 .right{position: absolute; bottom: 0 ; right: 0; z-index: 2000;width: 100px;}
+
+#realname2 .img3-box{width: 100%; background-color: #fff; height: 164px; border: 1px dashed #999; margin-top: 0.2rem;}
+#realname2 .img3-box .view3{ width: 256px; height: 162px;margin: 0 auto;}
+#realname2 .img3-box .view3 img{display: block; width: 100%; height: 100%;}
+#clipArea3{position: fixed; width: 100%; height: 100%; background-color: #000; top: 0; left: 0; z-index: 100; visibility: hidden;}
+#clipArea3 .left{position: absolute; bottom: 0 ; left: 0; z-index: 2000; width: 100px;}
+#clipArea3 .right{position: absolute; bottom: 0 ; right: 0; z-index: 2000;width: 100px;}
+
+/*确认订单*/
+.orders{background-color: #fff; padding: 0.1rem 0.3rem;}
+.orders p{ color: #000; font-size: 0.32rem; line-height: 0.54rem;}
+.orders p .num{font-size: 0.44rem;}
+#recharge_details .my-setting-list .my-cell .num{color: #999;}
+#recharge_details .my-setting-list .my-cell .pull-right{color: #000; font-size: 0.32rem;}
